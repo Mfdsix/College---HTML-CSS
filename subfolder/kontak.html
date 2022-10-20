@@ -13,9 +13,39 @@
 
     <!-- bagian awal, isinya tag heading -->
     <div>
-      <h1> Sekolah Koding </h1>
-      <h2> Tutorial online untuk belajar <span>membuat website<span> </h2>
+      <h1> Kontak Sekolah Koding </h1>
+      <h2> &nbsp;Tutorial online untuk belajar <span>membuat website<span> </h2>
     </div>
+
+    <!-- membuat form -->
+    <form>
+      <label for="nama_user">Nama</label>
+      <input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
+      <br>
+      <label for="pesan_user">Pesan</label>
+      <textarea cols="100" rows="7" id="pesan_user"> Pesan saya adalah... </textarea>
+      <br>
+      <label>Hobi</label> <br>
+      <input type="checkbox" name="hobi_user" value="0"> Menggambar
+      <input type="checkbox" name="hobi_user" value="1" checked> Menulis
+      <input type="checkbox" name="hobi_user" value="2"> Menyanyi
+      <br>
+      <label>Jenis Kelamin</label> <br>
+      <input type="radio" name="gender" value="0" checked> Laki-laki
+      <input type="radio" name="gender" value="1"> Perempuan
+      <br>
+      <label>Pelajaran</label>
+      <select>
+        <optgroup label="Frontend">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+        </optgroup>
+        <optgroup label="Backend">
+          <option value="js">Javascript</option>
+          <option value="db">Database</option>
+        </optgroup>
+      </select>
+    </form>
 
     <!-- table pada html -->
     <table border="1">
@@ -59,5 +89,7 @@
       <dt>Rif'an</dt>
       <dd>User ketiga kampus</dd>
     </dl>
+
+    <p> &copy; Universitas Pelita Bangsa </p>
   </body>
 </html>
