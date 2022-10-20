@@ -19,34 +19,44 @@
 
     <!-- membuat form -->
     <form>
-      <label for="nama_user">Nama</label>
-      <input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
+      <fieldset>
+        <legend> Nama dan Pesan </legend>
+        <label for="nama_user">Nama</label>
+        <input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
+        <br>
+        <label for="pesan_user">Pesan</label>
+        <textarea cols="100" rows="7" id="pesan_user"> Pesan saya adalah... </textarea>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend> Pilihan Data </legend>
+        <label>Hobi</label> <br>
+        <input type="checkbox" name="hobi_user" value="0"> Menggambar
+        <input type="checkbox" name="hobi_user" value="1" checked> Menulis
+        <input type="checkbox" name="hobi_user" value="2"> Menyanyi
+        <br>
+        <label>Jenis Kelamin</label> <br>
+        <input type="radio" name="gender" value="0" checked> Laki-laki
+        <input type="radio" name="gender" value="1"> Perempuan
+        <br>
+        <label>Pelajaran</label>
+        <select>
+          <optgroup label="Frontend">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+          </optgroup>
+          <optgroup label="Backend">
+            <option value="js">Javascript</option>
+            <option value="db">Database</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
       <br>
-      <label for="pesan_user">Pesan</label>
-      <textarea cols="100" rows="7" id="pesan_user"> Pesan saya adalah... </textarea>
-      <br>
-      <label>Hobi</label> <br>
-      <input type="checkbox" name="hobi_user" value="0"> Menggambar
-      <input type="checkbox" name="hobi_user" value="1" checked> Menulis
-      <input type="checkbox" name="hobi_user" value="2"> Menyanyi
-      <br>
-      <label>Jenis Kelamin</label> <br>
-      <input type="radio" name="gender" value="0" checked> Laki-laki
-      <input type="radio" name="gender" value="1"> Perempuan
-      <br>
-      <label>Pelajaran</label>
-      <select>
-        <optgroup label="Frontend">
-          <option value="html">HTML</option>
-          <option value="css">CSS</option>
-        </optgroup>
-        <optgroup label="Backend">
-          <option value="js">Javascript</option>
-          <option value="db">Database</option>
-        </optgroup>
-      </select>
+      <input type="submit" value="Kirim Data">
     </form>
 
+    <br>
     <!-- table pada html -->
     <table border="1">
       <caption> Daftar mahasiswa kampus </caption>
