@@ -1,0 +1,25 @@
+body{
+  /* background: #dfdfdf;
+  background-image: url('gambar/logo.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top; */
+  background: #dfdfdf url('gambar/logo.png') no-repeat fixed right;
+}
+
+#menu_web{
+  background: yellow;
+}
+
+.menu{
+  color: red;
+}
+
+h1{
+  color: red;
+}
+
+h2{
+  color: blue;
+  font-size: 30px;
+}
