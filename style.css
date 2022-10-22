@@ -1,3 +1,7 @@
+*{
+  /* margin: 0px; */
+}
+
 body{
   /* background: #dfdfdf;
   background-image: url('gambar/logo.png');
@@ -8,9 +12,28 @@ body{
 }
 
 #menu_web{
-  background: yellow;
+  /* background: yellow; */
+  /* margin: top right bottom left; */
+  margin: 10px 0 50px 0;
 }
 
+/* a{
+  display: block;
+} */
+
+.menu{
+  display: inline-block;
+  /* height: 50px;
+  width: 100px; */
+  text-decoration: none;
+
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: black; */
+
+  border: 3px dashed black;
+  padding: 10px 5px;
+}
 .menu:link{
   background: grey;
   color: white;
@@ -29,6 +52,7 @@ h1{
   color: red;
   text-align: center;
   text-decoration: underline;
+  display: inline;
 }
 
 h2{
@@ -36,12 +60,20 @@ h2{
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  display: inline;
 }
 
 #text_pendek{
   font-size: 24px;
   font-family: sans-serif;
   font-weight: bold;
+  width: 50%;
+  background: yellow;
+  height: 200px;
+  max-width: 30%;
+  max-height: 100px;
+  /* visibility: hidden; */
+  display: none;
 }
 
 #text_panjang{
