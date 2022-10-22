@@ -86,12 +86,21 @@ h2{
 
 #menu_member{
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 20px;
 }
 
 #konten_member{
   margin-top: 70px;
+}
+
+#h1_member{
+  background: green;
+  position: absolute;
+  top: 60px;
+  left: 300px;
+  color: #fff;
+  text-decoration: none;
 }
 
 #h2_member{
