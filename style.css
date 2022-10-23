@@ -141,3 +141,28 @@ ul, ol, dl{
     color: #fff;
     clear: both;
 }
+
+/* halaman kontak */
+h1, h2{
+  color: grey;
+}
+
+/* element a di dalam div */
+div a{
+  color: blue;
+}
+
+/* element a langsung didalam div */
+div > a{
+  background: yellow;
+}
+
+/* div setelah p */
+p + div{
+  background: purple;
+}
+
+/* semua bagian yang ada setelah div*/
+div ~ p{
+  background: red;
+}
