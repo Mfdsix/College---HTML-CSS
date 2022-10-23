@@ -127,3 +127,17 @@ table{
   float: right;
   margin-right: 20px;
 }
+
+ul, ol, dl{
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.33%;
+}
+
+#copyright{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    clear: both;
+}
