@@ -166,3 +166,15 @@ p + div{
 div ~ p{
   background: red;
 }
+
+h1:hover{
+  font-size: 40px;
+}
+
+h1:hover + h2{
+    visibility: hidden;
+}
+
+input:focus, textarea:focus{
+  background: yellow;
+}

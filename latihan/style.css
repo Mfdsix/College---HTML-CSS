@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2{
+  margin: 0;
+}
+
+.clear{
+  clear: both;
+}
+
+#head {
+  padding: 50px;
+  background: orange;
+  color: #333;
+}
+
+#menu{
+  background: #333;
+  padding: 10px 50px;
+}
+
+#menu a{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+#menu a:hover{
+  color: orange;
+}
+#menu a:visited{
+  color: grey;
+}
+
+#home{
+  padding: 100px;
+  background: grey;
+  text-align: center;
+}
+#home img{
+  width: 200px;
+  height: 200px;
+  border: 2px solid orange;
+  border-radius: 100px;
+}
+#home:hover{
+  background: #333;
+}
+#home:hover img{
+  border-style: dotted;
+}
+#home:hover div{
+  color: #fff;
+}
+#home h3{
+  color: orange;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+#home div{
+  font-style: italic;
+  text-decoration: underline;
+  color: #333;
+}
+
+#kategori{
+  background: #eee;
+  padding: 100px;
+}
+#kategori > div > div{
+  box-sizing: border-box;
+   float: left;
+   width: 33%;
+   border: 3px solid orange;
+   padding-left: 50px;
+   height: 120px;
+}
+#kategori > div > div h4{
+  font-size: 20px;
+  color: orange;
+}
+#kategori > div > div:hover{
+  background: #333;
+}
+#kategori > div > div:hover h4{
+  font-size: 36px;
+}
+
+#kontak{
+  background: #fff;
+  padding: 100px;
+  position: relative;
+}
+#kontak form{
+  margin-top: 30px;
+}
+#kontak form > div{
+  margin-bottom: 20px;
+  float: left;
+  width: 30%;
+}
+#kontak label{
+  display: block;
+}
+#pesan{
+  float: none !important;
+  clear: both;
+}
+input, textarea{
+  border: none;
+  background: #eee;
+  padding: 10px;
+}
+input:focus, textarea:focus{
+  border: 0 solid orange;
+  border-bottom-width: 3px;
+  outline: none;
+  color: orange;
+}
+button{
+  background: orange;
+  border: none;
+  padding: 10px 20px;
+}
+#kontak #wa{
+  position: absolute;
+  right: 20px;
+  top: 230px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+#wa p{
+  background: #333;
+  color: orange;
+  padding: 10px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+#wa div{
+  padding: 20px;
+  background: orange;
+  color: #333;
+  font-size: 30px;
+  border-radius: 0 0 0 10px;
+}
+
+#copyright{
+  border: 0 solid orange;
+  border-top-width: 3px;
+  padding: 30px 100px;
+}
